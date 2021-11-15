@@ -19,3 +19,17 @@ suggested it should have the same results as example.org.
 Perhaps example.com updated or the example cut off the
 third certificate
 
+solution avenue results:
+#stackexchange-signature.bin=signature.txt but converted to bin with xdd -rp
+
+Command:
+openssl dgst -sha256 -verify c0.pem -signature stackexchange-signature.bin c0_body.bin
+output:
+unable to load key file
+
+
+
+
+
+
+public github repo with all files:
