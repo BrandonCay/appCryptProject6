@@ -1,0 +1,6 @@
+openssl dgst -sha256 -verify c0.pem -signature stackexchange-signature.bin c0_body.bin
+unable to load key file
+#stackexchange-signature.bin == signature after xdd -rp (converted to bin)
+/*
+avenue resulted in error. Operands may be set up incorrectly or data is wrong
+*/
