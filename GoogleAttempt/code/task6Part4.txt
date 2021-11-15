@@ -1,0 +1,3 @@
+declare arr=(c0 c1 c2)
+
+openssl asn1parse -i -in c0.pem

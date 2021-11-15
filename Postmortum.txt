@@ -1,0 +1,21 @@
+Google Attempt
+-Contains the same results from first project4RSA submission
+-Possible solution avenues from last report apply
+-An additional solution path is to apply the "solution
+avenue" that I specified in my example docs
+-Result was fail
+
+Example.com  Attempt
+-Used new methods to store file results inside textFiles
+-Result was a failure
+-One solution avenue:
+--use openssl to verify certificate. If it doesn't succeed
+then data is wrong. If date is wrong, then I retrace my steps
+(at the moment, not too sure what could've slipped). If openssl
+succeeds given the data present here, then my code is wrong. If
+my code is wrong, I should fix it.
+-Oddly, example.com had 3 certificates. The example shown
+suggested it should have the same results as example.org.
+Perhaps example.com updated or the example cut off the
+third certificate
+
